@@ -4,13 +4,13 @@ Sviluppo due programmi, il primo "Palindorma" dove si inserisce una parola e il 
 
 ## Palindroma
 
-1. Definisco una funzione per verificare che la parola sia palindroma.
+1. Raccolgo il dato dall'utente.
 
-2. Raccolgo il dato dall'utente.
+2. Creo funzione per invertire la parola dell'utente.
 
-3. Verifico che la parola sia palindroma.
+3. Creo funzione per verificare che la parola inserita sia palindroma.
 
-4. Stampo in pagina il risultato. 
+4. Creo le condizioni per stampare la risposta corretta 
 
 ## Pari e Dispari
 
