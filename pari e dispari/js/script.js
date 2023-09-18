@@ -20,11 +20,10 @@
 const opzioniValide = ['pari', 'dispari']
 
 // 2.
-const scelta = prompt('Scrivi qui sotto la tua scelta: pari o dispari?')
-
-while (!opzioniValide.includes(scelta)) {
-  alert('Scelta non valida. Ricaricare la pagina.')
-}
+let scelta; 
+while (!opzioniValide.includes(scelta))  {
+  scelta = prompt('Scrivi qui sotto la tua scelta: pari o dispari?')
+} 
 
 // 3.
 function isPari(numero) {
