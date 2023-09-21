@@ -35,7 +35,7 @@ function numeroRandom () {
   return Math.floor(Math.random() *5) +1;
 }
 
-const numeroUser = numeroRandom();
+const numeroUser = parseInt(prompt('inserisci un numero da 1 a 5'));
 const numeroPc = numeroRandom();
 console.log(numeroUser);
 console.log(numeroPc);
