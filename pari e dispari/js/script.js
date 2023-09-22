@@ -56,7 +56,7 @@ function verifica () {
     messaggio = 'la somma dei due numeri è dispari. '
   }
   // 7.
-  if((somma % 2 === 0 && scelta === "pari") || (somma % 2 !== 00 && scelta === "dispari")) {
+  if((somma % 2 === 0 && scelta === "pari") || (somma % 2 !== 0 && scelta === "dispari")) {
   messaggio += "Hai vinto!";
   } else {
     messaggio += "Il computer ha vinto!"
